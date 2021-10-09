@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap");
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+/* Style the skill section  */
+.skill-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px 16px 16px 16px;
+  width: 20vw;
+  text-align: center;
+  background-color: #0e2431;
+  margin-bottom: 4%;
+  min-height: 80px;
+  color:white;
+}
+
+.skills-section a{
+  color: #fff;
+}
+@media screen and (max-width: 766px) {
+  .skill-card{
+    width: 50vw !important;
+    margin-left: 14%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skill-card{
+    width: 50vw !important;
+    margin-left: 20%;
+  }
+}
+.skill-card:hover
+{
+    z-index: 2;
+    -webkit-transition: all 500ms ease-in;
+    -webkit-transform: scale(0.8);
+    -ms-transition: all 500ms ease-in;
+    -ms-transform: scale(0.8);   
+    -moz-transition: all 500ms ease-in;
+    -moz-transform: scale(0.8);
+    transition: all 500ms ease-in;
+    transform: scale(0.8);
+    background-color: #3caea3;
+} 
+.books{
+  margin-top: 78px;
+}
